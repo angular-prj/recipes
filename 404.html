@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <!-- <meta http-equiv="refresh" content="0; URL='http://all3d.be'" /> -->
-  </head>  
-  <body>
-    <p id="xy">xy</p>
-    <p id="xx">xx</p>
-    <script>
-      document.getElementById('xy').text = document.referrer;
-      document.getElementById('xx').text = "TEST";
-    </script>
-  </body>
+<body>
+
+<p id="p1">Click the button to change the text in this paragraph.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+document.getElementById("p1").innerHTML = document.referer;
+</script>
+
+</body>
 </html>
